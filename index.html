@@ -29,7 +29,7 @@
 	<script src="/DESIGN/SITE/JS/common.js-v=0.0.1"></script>
 	<script src="/DESIGN/SITE/JS/sweetalert.min.js"></script>
 	<!--[if lte IE 8]>
-	<script type="text/javascript" src="/DESIGN/SITE/JS/selectivizr-min.js" tppabs="http://vipceiling.ru/DESIGN/SITE/JS/selectivizr-min.js"></script>
+	<script type="text/javascript" src="/DESIGN/SITE/JS/selectivizr-min.js"></script>
 	<![endif]-->
 	<script src="../../api-maps.yandex.ru/2.1/-lang=ru-RU-1" tppabs="http://api-maps.yandex.ru/2.1/?lang=ru-RU"></script>
 
@@ -43,739 +43,13 @@
 </head>
 <body>
 <header class="headerCity">
-	<div class="cityPhone clearfix">
-		<div class="insideCityPhone">
-			<a class="city">
-				<span>Москва</span>
-			</a>
-			<div class="modalOverlay" onclick="closeCityPopup();"></div>
-			<div class="scrollList">
-
-				<div class="citySearchBlock">
-					<input type="text" class="citySearch" placeholder="Введите город">
-					<i class="fa fa-search iconSearch" aria-hidden="true"></i>
-				</div>
-				<div class="cityList">
-					<ul>
-						<li><a href="index.htm" data-cid="326" onclick="return false;">Москва</a></li>
-						<li><a
-								href="javascript:if(confirm('http://vipceiling.ru/spb/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/spb/'"
-								tppabs="http://vipceiling.ru/spb/" data-cid="456" onclick="return false;">Санкт-Петербург</a></li>
-						<li class="spcr"></li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/asbest/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/asbest/'"
-								 tppabs="http://vipceiling.ru/asbest/"
-
-								 data-cid="29">Асбест</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/balashiha/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/balashiha/'"
-								 tppabs="http://vipceiling.ru/balashiha/"
-
-								 data-cid="40">Балашиха</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/barnaul/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/barnaul/'"
-								 tppabs="http://vipceiling.ru/barnaul/"
-
-								 data-cid="43">Барнаул</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/berezniki/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/berezniki/'"
-								 tppabs="http://vipceiling.ru/berezniki/"
-
-								 data-cid="52">Березники</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/vpyshma/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/vpyshma/'"
-								 tppabs="http://vipceiling.ru/vpyshma/"
-
-								 data-cid="78">Верхняя Пышма</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/vidnoe/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/vidnoe/'"
-								 tppabs="http://vipceiling.ru/vidnoe/"
-
-								 data-cid="81">Видное</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/volgograd/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/volgograd/'"
-								 tppabs="http://vipceiling.ru/volgograd/"
-
-								 data-cid="88">Волгоград</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/volzhskiy/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/volzhskiy/'"
-								 tppabs="http://vipceiling.ru/volzhskiy/"
-
-								 data-cid="91">Волжский</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/voronezh/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/voronezh/'"
-								 tppabs="http://vipceiling.ru/voronezh/"
-
-								 data-cid="100">Воронеж</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/voskresensk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/voskresensk/'"
-								 tppabs="http://vipceiling.ru/voskresensk/"
-
-								 data-cid="101">Воскресенск</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/dmitrov/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/dmitrov/'"
-								 tppabs="http://vipceiling.ru/dmitrov/"
-
-								 data-cid="141">Дмитров</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/dolgoprudnyj/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/dolgoprudnyj/'"
-								 tppabs="http://vipceiling.ru/dolgoprudnyj/"
-
-								 data-cid="143">Долгопрудный</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/domodedovo/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/domodedovo/'"
-								 tppabs="http://vipceiling.ru/domodedovo/"
-
-								 data-cid="144">Домодедово</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/egorevsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/egorevsk/'"
-								 tppabs="http://vipceiling.ru/egorevsk/"
-
-								 data-cid="150">Егорьевск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/ekb/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/ekb/'"
-								 tppabs="http://vipceiling.ru/ekb/"
-
-								 data-cid="152">Екатеринбург</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/zheleznodorozhnyj/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/zheleznodorozhnyj/'"
-								 tppabs="http://vipceiling.ru/zheleznodorozhnyj/"
-
-								 data-cid="161">Железнодорожный</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/zhukovskij/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/zhukovskij/'"
-								 tppabs="http://vipceiling.ru/zhukovskij/"
-
-								 data-cid="164">Жуковский</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/zvenigorod/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/zvenigorod/'"
-								 tppabs="http://vipceiling.ru/zvenigorod/"
-
-								 data-cid="170">Звенигород</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/zlatoust/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/zlatoust/'"
-								 tppabs="http://vipceiling.ru/zlatoust/"
-
-								 data-cid="177">Златоуст</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/ivanteevka/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/ivanteevka/'"
-								 tppabs="http://vipceiling.ru/ivanteevka/"
-
-								 data-cid="179">Ивантеевка</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/irkutsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/irkutsk/'"
-								 tppabs="http://vipceiling.ru/irkutsk/"
-
-								 data-cid="185">Иркутск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/istra/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/istra/'"
-								 tppabs="http://vipceiling.ru/istra/"
-
-								 data-cid="186">Истра</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/kazan/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/kazan/'"
-								 tppabs="http://vipceiling.ru/kazan/"
-
-								 data-cid="193">Казань</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/kamensk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/kamensk/'"
-								 tppabs="http://vipceiling.ru/kamensk/"
-
-								 data-cid="201">Каменск-Уральский</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/kachkanar/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/kachkanar/'"
-								 tppabs="http://vipceiling.ru/kachkanar/"
-
-								 data-cid="211">Качканар</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/kemerovo/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/kemerovo/'"
-								 tppabs="http://vipceiling.ru/kemerovo/"
-
-								 data-cid="214">Кемерово</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/klin/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/klin/'"
-								 tppabs="http://vipceiling.ru/klin/"
-
-								 data-cid="228">Клин</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/kolomna/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/kolomna/'"
-								 tppabs="http://vipceiling.ru/kolomna/"
-
-								 data-cid="233">Коломна</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/kopeysk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/kopeysk/'"
-								 tppabs="http://vipceiling.ru/kopeysk/"
-
-								 data-cid="239">Копейск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/korolev/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/korolev/'"
-								 tppabs="http://vipceiling.ru/korolev/"
-
-								 data-cid="240">Королев</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/krasnogorsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/krasnogorsk/'"
-								 tppabs="http://vipceiling.ru/krasnogorsk/"
-
-								 data-cid="250">Красногорск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/krasnodar/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/krasnodar/'"
-								 tppabs="http://vipceiling.ru/krasnodar/"
-
-								 data-cid="251">Краснодар</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/kpasnokamsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/kpasnokamsk/'"
-								 tppabs="http://vipceiling.ru/kpasnokamsk/"
-
-								 data-cid="254">Краснокамск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/kstovo/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/kstovo/'"
-								 tppabs="http://vipceiling.ru/kstovo/"
-
-								 data-cid="262">Кстово</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/kungur/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/kungur/'"
-								 tppabs="http://vipceiling.ru/kungur/"
-
-								 data-cid="267">Кунгур</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/kurgan/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/kurgan/'"
-								 tppabs="http://vipceiling.ru/kurgan/"
-
-								 data-cid="269">Курган</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/lipetsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/lipetsk/'"
-								 tppabs="http://vipceiling.ru/lipetsk/"
-
-								 data-cid="291">Липецк</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/lobnya/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/lobnya/'"
-								 tppabs="http://vipceiling.ru/lobnya/"
-
-								 data-cid="292">Лобня</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/lysva/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/lysva/'"
-								 tppabs="http://vipceiling.ru/lysva/"
-
-								 data-cid="298">Лысьва</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/lyubertsy/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/lyubertsy/'"
-								 tppabs="http://vipceiling.ru/lyubertsy/"
-
-								 data-cid="300">Люберцы</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/magnitogorsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/magnitogorsk/'"
-								 tppabs="http://vipceiling.ru/magnitogorsk/"
-
-								 data-cid="302">Магнитогорск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/miass/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/miass/'"
-								 tppabs="http://vipceiling.ru/miass/"
-
-								 data-cid="314">Миасс</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/mytischi/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/mytischi/'"
-								 tppabs="http://vipceiling.ru/mytischi/"
-
-								 data-cid="330">Мытищи</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/naro-fominsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/naro-fominsk/'"
-								 tppabs="http://vipceiling.ru/naro-fominsk/"
-
-								 data-cid="337">Наро-Фоминск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/neftekamsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/neftekamsk/'"
-								 tppabs="http://vipceiling.ru/neftekamsk/"
-
-								 data-cid="344">Нефтекамск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/nefteyugansk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/nefteyugansk/'"
-								 tppabs="http://vipceiling.ru/nefteyugansk/"
-
-								 data-cid="345">Нефтеюганск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/nizhnevartovsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/nizhnevartovsk/'"
-								 tppabs="http://vipceiling.ru/nizhnevartovsk/"
-
-								 data-cid="347">Нижневартовск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/nn/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/nn/'"
-								 tppabs="http://vipceiling.ru/nn/"
-
-								 data-cid="351">Нижний Новгород</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/ntagil/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/ntagil/'"
-								 tppabs="http://vipceiling.ru/ntagil/"
-
-								 data-cid="352">Нижний Тагил</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/novokuznetsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/novokuznetsk/'"
-								 tppabs="http://vipceiling.ru/novokuznetsk/"
-
-								 data-cid="361">Новокузнецк</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/nsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/nsk/'"
-								 tppabs="http://vipceiling.ru/nsk/"
-
-								 data-cid="367">Новосибирск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/nurengoy/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/nurengoy/'"
-								 tppabs="http://vipceiling.ru/nurengoy/"
-
-								 data-cid="376">Новый Уренгой</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/noginsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/noginsk/'"
-								 tppabs="http://vipceiling.ru/noginsk/"
-
-								 data-cid="377">Ногинск</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/odintsovo/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/odintsovo/'"
-								 tppabs="http://vipceiling.ru/odintsovo/"
-
-								 data-cid="382">Одинцово</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/omsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/omsk/'"
-								 tppabs="http://vipceiling.ru/omsk/"
-
-								 data-cid="388">Омск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/orehovo-zuevo/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/orehovo-zuevo/'"
-								 tppabs="http://vipceiling.ru/orehovo-zuevo/"
-
-								 data-cid="392">Орехово-Зуево</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/pavlovsky-posad/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/pavlovsky-posad/'"
-								 tppabs="http://vipceiling.ru/pavlovsky-posad/"
-
-								 data-cid="401">Павловский Посад</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/penza/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/penza/'"
-								 tppabs="http://vipceiling.ru/penza/"
-
-								 data-cid="403">Пенза</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/pervouralsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/pervouralsk/'"
-								 tppabs="http://vipceiling.ru/pervouralsk/"
-
-								 data-cid="405">Первоуральск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/perm/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/perm/'"
-								 tppabs="http://vipceiling.ru/perm/"
-
-								 data-cid="407">Пермь</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/podolsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/podolsk/'"
-								 tppabs="http://vipceiling.ru/podolsk/"
-
-								 data-cid="413">Подольск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/pushkino/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/pushkino/'"
-								 tppabs="http://vipceiling.ru/pushkino/"
-
-								 data-cid="427">Пушкино</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/ramenskoe/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/ramenskoe/'"
-								 tppabs="http://vipceiling.ru/ramenskoe/"
-
-								 data-cid="433">Раменское</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/revda/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/revda/'"
-								 tppabs="http://vipceiling.ru/revda/"
-
-								 data-cid="434">Ревда</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/reutov/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/reutov/'"
-								 tppabs="http://vipceiling.ru/reutov/"
-
-								 data-cid="438">Реутов</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/rostovdon/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/rostovdon/'"
-								 tppabs="http://vipceiling.ru/rostovdon/"
-
-								 data-cid="444">Ростов-на-Дону</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/salavat/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/salavat/'"
-								 tppabs="http://vipceiling.ru/salavat/"
-
-								 data-cid="451">Салават</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/samara/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/samara/'"
-								 tppabs="http://vipceiling.ru/samara/"
-
-								 data-cid="455">Самара</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/sergiev-posad/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/sergiev-posad/'"
-								 tppabs="http://vipceiling.ru/sergiev-posad/"
-
-								 data-cid="476">Сергиев Посад</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/serov/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/serov/'"
-								 tppabs="http://vipceiling.ru/serov/"
-
-								 data-cid="478">Серов</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/serpuhov/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/serpuhov/'"
-								 tppabs="http://vipceiling.ru/serpuhov/"
-
-								 data-cid="479">Серпухов</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/simferopol/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/simferopol/'"
-								 tppabs="http://vipceiling.ru/simferopol/"
-
-								 data-cid="620">Симферополь</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/sovetskij/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/sovetskij/'"
-								 tppabs="http://vipceiling.ru/sovetskij/"
-
-								 data-cid="490">Советский</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/solikamsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/solikamsk/'"
-								 tppabs="http://vipceiling.ru/solikamsk/"
-
-								 data-cid="491">Соликамск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/solnechnogorsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/solnechnogorsk/'"
-								 tppabs="http://vipceiling.ru/solnechnogorsk/"
-
-								 data-cid="492">Солнечногорск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/sochi/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/sochi/'"
-								 tppabs="http://vipceiling.ru/sochi/"
-
-								 data-cid="496">Сочи</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/sterlitamak/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/sterlitamak/'"
-								 tppabs="http://vipceiling.ru/sterlitamak/"
-
-								 data-cid="506">Стерлитамак</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/stupino/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/stupino/'"
-								 tppabs="http://vipceiling.ru/stupino/"
-
-								 data-cid="508">Ступино</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/surgut/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/surgut/'"
-								 tppabs="http://vipceiling.ru/surgut/"
-
-								 data-cid="509">Сургут</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/syzran/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/syzran/'"
-								 tppabs="http://vipceiling.ru/syzran/"
-
-								 data-cid="512">Сызрань</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/tolyatti/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/tolyatti/'"
-								 tppabs="http://vipceiling.ru/tolyatti/"
-
-								 data-cid="529">Тольятти</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/tomsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/tomsk/'"
-								 tppabs="http://vipceiling.ru/tomsk/"
-
-								 data-cid="531">Томск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/tyumen/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/tyumen/'"
-								 tppabs="http://vipceiling.ru/tyumen/"
-
-								 data-cid="540">Тюмень</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/uraj/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/uraj/'"
-								 tppabs="http://vipceiling.ru/uraj/"
-
-								 data-cid="547">Урай</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/ufa/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/ufa/'"
-								 tppabs="http://vipceiling.ru/ufa/"
-
-								 data-cid="555">Уфа</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/fryazino/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/fryazino/'"
-								 tppabs="http://vipceiling.ru/fryazino/"
-
-								 data-cid="561">Фрязино</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/himki/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/himki/'"
-								 tppabs="http://vipceiling.ru/himki/"
-
-								 data-cid="566">Химки</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/chaikovskii/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/chaikovskii/'"
-								 tppabs="http://vipceiling.ru/chaikovskii/"
-
-								 data-cid="570">Чайковский</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/chel/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/chel/'"
-								 tppabs="http://vipceiling.ru/chel/"
-
-								 data-cid="576">Челябинск</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/chernogolovka/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/chernogolovka/'"
-								 tppabs="http://vipceiling.ru/chernogolovka/"
-
-								 data-cid="580">Черноголовка</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/chehov/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/chehov/'"
-								 tppabs="http://vipceiling.ru/chehov/"
-
-								 data-cid="584">Чехов</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/chusovoy/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/chusovoy/'"
-								 tppabs="http://vipceiling.ru/chusovoy/"
-
-								 data-cid="587">Чусовой</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/shadrinsk/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/shadrinsk/'"
-								 tppabs="http://vipceiling.ru/shadrinsk/"
-
-								 data-cid="588">Шадринск</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/shcelkovo/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/shcelkovo/'"
-								 tppabs="http://vipceiling.ru/shcelkovo/"
-
-								 data-cid="601">Щелково</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/scherbinka/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/scherbinka/'"
-								 tppabs="http://vipceiling.ru/scherbinka/"
-
-								 data-cid="602">Щербинка</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/elektrostal/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/elektrostal/'"
-								 tppabs="http://vipceiling.ru/elektrostal/"
-
-								 data-cid="604">Электросталь</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/jubilejnyj/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/jubilejnyj/'"
-								 tppabs="http://vipceiling.ru/jubilejnyj/"
-
-								 data-cid="607">Юбилейный</a>
-						</li>
-						<li class="spcr">
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/yalta/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/yalta/'"
-								 tppabs="http://vipceiling.ru/yalta/"
-
-								 data-cid="619">Ялта</a>
-						</li>
-						<li>
-							<a onclick="return false;"
-								 href="javascript:if(confirm('http://vipceiling.ru/yaroslavl/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/yaroslavl/'"
-								 tppabs="http://vipceiling.ru/yaroslavl/"
-
-								 data-cid="616">Ярославль</a>
-						</li>
-
-
-					</ul>
-				</div>
-			</div>
-
-			<a href="pay/index.htm" tppabs="http://vipceiling.ru/moscow/pay/" class="pay">
-				<span><i class="fa fa-credit-card iconPay" aria-hidden="true"></i>Оплатить заказ он-лайн</span>
-			</a>
-			<div class="timeWork">
-				<span><i class="fa fa-clock-o iconTimeWork" aria-hidden="true"></i>Работаем до 21:00</span>
-			</div>
-		</div>
-	</div>
 	<div class="menuHeader clearfix">
 		<div class="insideMenuHeader">
 			<div class="navigateLeft">
 				<a class="bar"><i class="fa fa-bars iconBar" aria-hidden="true"></i></a>
-				<a class="logo" href="index.htm" tppabs="http://vipceiling.ru/moscow/">
+				<a class="logo" href="index.htm">
 					<div class="logoMoroz"></div>
-					<img src="../DESIGN/SITE/CSS/css/img/header_logo.svg" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/header_logo.svg" alt="">
+					<img src="/DESIGN/SITE/CSS/css/img/header_logo.png" alt="">
 				</a>
 				<div class="navBar">
 					<div class="navBlock generalNavLink">
@@ -785,14 +59,14 @@
 						<a class="navBlockTitle sub">О компании</a>
 					</div>
 					<div class="navBlock sm-none officesLink">
-						<a class="navBlockTitle" href="how/index.htm" tppabs="http://vipceiling.ru/moscow/how/">Офисы продаж</a>
+						<a class="navBlockTitle" href="how/index.htm">Офисы продаж</a>
 					</div>
 				</div>
 			</div>
 			<div class="navigateRight clearfix">
-				<span class="mail"><a href="aboutcompany/feedback/index.htm" tppabs="http://vipceiling.ru/moscow/aboutcompany/feedback/"><i
+				<span class="mail"><a href="aboutcompany/feedback/index.htm"><i
 						class="fa fa-envelope-o iconMail"></i></a></span>
-				<a class="phone" href="tel:+7 (495) 531-20-29"><i class="fa fa-phone iconPhone" aria-hidden="true"></i>+7 (495) 531-20-29</a>
+				<a class="phone" href="tel:+7 (495) 531-20-29"><i class="fa fa-phone iconPhone" aria-hidden="true"></i>+7 (3532) 42-52-77</a>
 			</div>
 		</div>
 		<div class="navLists">
@@ -910,12 +184,8 @@
 						</div>
 						<div class="col-md-3 phones">
 							<h3 class="cityNumber">
-								<a href="tel:+7 (495) 531-20-29">+7 (495) 531-20-29</a>
+								<a href="tel:+7 (3532) 42-52-77">+7 (3532) 42-52-77</a>
 							</h3>
-							<h3 class="federalNumber">
-								<a href="tel:8 800 200-00-92">8 800 200-00-92</a>
-							</h3>
-							<p>Звонок по РФ бесплатный</p>
 						</div>
 					</div>
 				</div>
@@ -1127,7 +397,7 @@
 				<div class="wrapper">
 					<div class="row">
 						<div class="col-lg-8 col-sm-9 col-md-9">
-							<h2>Бесплатный замер в Москве</h2>
+							<h2>Бесплатный замер в Оренбурге</h2>
 						</div>
 						<div class="col-lg-4 col-sm-3 col-md-3">
 							<div class="nearestTime" id="soon">
@@ -1147,7 +417,7 @@
 						<div class="col-sm-5 col-md-5">
 							<div class="underAddress">
 								<div>
-									<input type="text" id="address-map" onclick="doActive();" class="yourAddress" placeholder="Ваш адрес в Москве">
+									<input type="text" id="address-map" onclick="doActive();" class="yourAddress" placeholder="Ваш адрес в Оренбурге">
 									<i class="fa fa-map-marker iconMap" aria-hidden="true"></i>
 								</div>
 								<div class="under">
@@ -2343,7 +1613,7 @@
 				<div class="col-xs-12 col-sm-4 col-md-3">
 					<div class="item forModelcalculations">
 						<h3>
-							<a class="bigLink" href="solutions/natyazhnye-potolki-v-prihozhej/index.htm" tppabs="http://vipceiling.ru/moscow/solutions/natyazhnye-potolki-v-prihozhej/">
+							<a class="bigLink" href="solutions/natyazhnye-potolki-v-prihozhej/index.htm">
 								Типовые расчеты<i class="fa fa-angle-right" aria-hidden="true"></i>
 							</a>
 						</h3>
@@ -2446,7 +1716,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="topic">
-						<h2>Примеры установленных потолков в Москве</h2>
+						<h2>Примеры установленных потолков в Оренбурге</h2>
 						<p class="lead">Фотографии, описание и стоимость выполненных работ</p>
 					</div>
 				</div>
@@ -2461,7 +1731,7 @@
 								<span class="date">26.03.2018</span>
 							</figure>
 							<p class="rating">Оценка заказчика</p>
-							<h4 class="recallTitle"><a href="reviews/index.htm#r2131" tppabs="http://vipceiling.ru/moscow/reviews/#r2131" class="fact bigLink">Потолок в офис</a><br>27
+							<h4 class="recallTitle"><a href="reviews/index.htm#r2131" class="fact bigLink">Потолок в офис</a><br>27
 								м<sup>2</sup></h4>
 							<div class="addition">
 								<p>Включено:</p>
@@ -2477,11 +1747,9 @@
 						</div>
 						<div class="recallRight">
 							<a class="photoRecall swipebox-item" rel="rev2131"
-								 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-04_42016.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-04_42016.jpg'"
-								 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-04_42016.jpg" data-litebox-group="of2131"
+								 href="" data-litebox-group="of2131"
 								 title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-								<img class="photo" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-04_82514.jpg"
-										 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-04_82514.jpg">
+								<img class="photo" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-04_82514.jpg">
 								<span class="plusXs">+12</span> </a>
 							<div class="underPhoto clearfix">
 								<a class="videoRecall swipebox-item" rel="video1"
@@ -2914,11 +2182,10 @@
 			<div class="row">
 				<div class="hidden-xs col-md-12">
 					<div class="topic">
-						<h2>Расчёт стоимости натяжных потолков в Москве</h2>
+						<h2>Расчёт стоимости натяжных потолков в Оренбурге</h2>
 
 						<div class="menucalculation">
 							<ul>
-
 								<li><span class="active">Кухня</span></li>
 								<li onclick="setSolActiveM('natyazhnoj-potolok-v-spalne','natyazhnoj-potolok-na-kuhne','/moscow/');"><span>Спальня</span></li>
 								<li onclick="setSolActiveM('natyazhnoj-potolok-v-vannoj','natyazhnoj-potolok-na-kuhne','/moscow/');"><span>Ванная</span></li>
@@ -4551,11 +3818,11 @@
 									</li>
 								</ul>
 								<span class="addressPhone">
-                                    <a href="tel:+7 (495) 249-24-10">
+                                    <a href="tel:+7 (3532) 42-52-77 ">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
-                                        +7 (495) 249-24-10                                    </a>
+                                        +7 (3532) 42-52-77                                </a>
                                 </span>
-								<a href="how/nagornyj/index.htm" tppabs="http://vipceiling.ru/moscow/how/nagornyj">
+								<a href="how/nagornyj/index.htm" >
                                     <span>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i> На карте
                                     </span>
@@ -4739,16 +4006,15 @@
 									<li><i class="fa fa-train iconOfficeList" style="color:#FF9A00"></i>Свиблово</li>
 									<li><i class="fa fa-train iconOfficeList" style="color:#FF9A00"></i>ВДНХ</li>
 									<li>
-                                        <span>
-                                            <i class="fa fa-clock-o" aria-hidden="true"></i> ежедневно 9:00-21:00                                        </span>
+										<span><i class="fa fa-clock-o" aria-hidden="true"></i> ежедневно 9:00-21:00                                        </span>
 									</li>
 								</ul>
 								<span class="addressPhone">
-                                    <a href="tel:+7 (495) 249-11-80">
+                                    <a href="tel:+7 (3532) 42-52-77">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
-                                        +7 (495) 249-11-80                                    </a>
+                                        +7 (3532) 42-52-77                                    </a>
                                 </span>
-								<a href="how/medvedkovo/index.htm" tppabs="http://vipceiling.ru/moscow/how/medvedkovo">
+								<a href="how/medvedkovo/index.htm">
                                     <span>
                                         <i class="fa fa-map-marker" aria-hidden="true"></i> На карте
                                     </span>
@@ -4853,10 +4119,10 @@
 								href="javascript:if(confirm('https://twitter.com/  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='https://twitter.com/#!/vipceiling'"
 								tppabs="https://twitter.com/#!/vipceiling" target="_blank"><i class="fa fa-twitter twitter" aria-hidden="true"></i></a></li>
 					</ul>
-					<div class="footerLogo"><img src="../DESIGN/SITE/CSS/css/img/logoMain.svg" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/logoMain.svg" alt=""></div>
+					<div class="footerLogo"><img src="/DESIGN/SITE/CSS/css/img/logoMain.png" alt=""></div>
 
 					<div class="copyRight">
-						<p>&copy; 2009-2018 &laquo;Профком56&raquo;<br>Россия, Москва <br>Симферопольский проезд, 18Б </p>
+						<p>&copy; 2009-2018 &laquo;Профком56&raquo;<br>Россия, Оренбург <br>Шевчеко, 223А </p>
 					</div>
 				</div>
 
@@ -4864,8 +4130,7 @@
 					<p class="footerListTitle">Профком56</p>
 					<ul class="footerListBlock">
 						<li><a href="aboutcompany/index.htm" tppabs="http://vipceiling.ru/moscow/aboutcompany/">О компании</a></li>
-						<li><a href="details/natyazhnye-potolki-bezopasnyj-montazh/index.htm"
-									 tppabs="http://vipceiling.ru/moscow/details/natyazhnye-potolki-bezopasnyj-montazh/">Безопасность</a></li>
+						<li><a href="details/natyazhnye-potolki-bezopasnyj-montazh/index.htm">Безопасность</a></li>
 						<li><a href="aboutcompany/vacancies/index.htm" tppabs="http://vipceiling.ru/moscow/aboutcompany/vacancies/">Вакансии</a></li>
 						<li><a href="aboutcompany/franchise/index.htm" tppabs="http://vipceiling.ru/moscow/aboutcompany/franchise/">Франчайзинг</a></li>
 						<li><a href="aboutcompany/partners/index.htm" tppabs="http://vipceiling.ru/moscow/aboutcompany/partners/">Партнерам</a></li>
@@ -4885,27 +4150,8 @@
 				</div>
 				<div class="col-md-3 phones">
 					<h3 class="cityNumber">
-						<a href="tel:+7 (495) 531-20-29">+7 (495) 531-20-29</a>
+						<a href="tel:+7 (495) 531-20-29">+7 (3532) 42-52-77</a>
 					</h3>
-					<h3 class="federalNumber">
-						<a href="tel:8 800 200-00-92">8 800 200-00-92</a>
-					</h3>
-					<p>Звонок по РФ бесплатный</p>
-					<div class="counter">
-						<!--LiveInternet counter-->
-						<script type="text/javascript">
-              document.write('<a href=\'http://www.liveinternet.ru/click\' ' +
-                  'target=_blank><img src=\'//counter.yadro.ru/hit?t14.11;r' +
-                  escape(document.referrer) + ((typeof(screen) == 'undefined') ? '' :
-                      ';s' + screen.width + '*' + screen.height + '*' + (screen.colorDepth ?
-                      screen.colorDepth : screen.pixelDepth)) + ';u' + escape(document.URL) +
-                  ';' + Math.random() +
-                  '\' alt=\'\' title=\'LiveInternet: показано число просмотров за 24' +
-                  ' часа, посетителей за 24 часа и за сегодня\' ' +
-                  'border=\'0\' width=\'88\' height=\'31\'><\/a>');
-						</script>
-						<!--/LiveInternet-->
-					</div>
 				</div>
 
 			</div>
