@@ -1,0 +1,40 @@
+document.cookie = "cookietest=1";
+var c_enabled = document.cookie.indexOf("cookietest=") != -1;
+var cpid;
+var dataLayer;
+jQuery.ajaxSetup({async:false});
+
+document.cookie = "cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT";
+
+if (c_enabled){
+	if ( (typeof($.cookie('ClientID')) != 'undefined') &&
+		(typeof($.cookie('PromoID')) != 'undefined') ){
+		uid_ga = $.cookie('ClientID');
+		cpid = $.cookie('PromoID');
+		cpid = cpid.slice(0, 3) + '-' + cpid.slice(3);
+
+		dataLayer = [{'userID': uid_ga}];
+
+		console.log('From cookie: ' + cpid);
+		$('.client_id').html(cpid);
+	} else {
+		var jqxhr = $.get('/moscow/json/cid_cookie/');
+		jqxhr.done(showPID);
+	}
+		
+}
+
+jQuery.ajaxSetup({async:true});
+
+function showPID(data){
+	cpid = data.pid.toString();
+	
+	cpid = cpid.slice(0, 3) + '-' + cpid.slice(3);
+    console.log('From API: ' + cpid);
+
+	$('.client_id').html(cpid);
+
+	if (typeof(dataLayer) == 'undefined')
+		dataLayer = [{'userID': data.cid[0]}];
+}
+

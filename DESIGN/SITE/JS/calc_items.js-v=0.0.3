@@ -1,0 +1,220 @@
+var pricemin=1000000;
+var pricemax=0;
+//localStorage.clear();
+var minRange = 5;
+var maxRange = 50;
+var state;
+
+	$("#slider").ionRangeSlider({
+		min: minRange,
+		max: maxRange,
+		from: 15,
+		hide_from_to: true,
+		onChange: function (data) {
+			var store = localStorage.getItem('data');
+			if(store){
+                var fromStorage = JSON.parse(localStorage.getItem('data'));
+                $('.var_m2t').html(fromStorage.from);
+                $('.js-from').val(data['from']);
+                state = data['from'];
+			}
+
+		},
+		onFinish: function (data) {
+            imitationWork(data);
+            setLocalStorage(data);
+		},
+		onStart: function (data) {
+			var checkStorage = JSON.parse(localStorage.getItem('data'));
+            if(checkStorage) {
+                countSlider(data);
+            }
+
+            $('.calculator .container').removeClass('calc-loader');
+
+		},
+		onUpdate: function (data) {
+			$('.var_m2t').html(data['from']);
+            setLocalStorage(data);
+            countSlider(data);
+		}
+	});
+
+	var slider = $("#slider").data("ionRangeSlider");
+
+	function setLocalStorage(data) {
+        localStorage.setItem('data', JSON.stringify(data));
+    }
+
+	var dataSlider = JSON.parse(localStorage.getItem('data'));
+
+	if(dataSlider){
+        setOptions(dataSlider);
+	}
+
+	function setOptions(dataSlider) {
+
+        var startFrom   = dataSlider.from;
+        slider.update({
+             from: startFrom
+        });
+        $('.js-from').val(dataSlider.from);
+		state = dataSlider.from;
+
+    }
+
+	$('.space').on( "click", function() {
+		$('.js-from').focus();
+	});
+
+	var changeForm = $('.js-from');
+
+	changeForm.keyup(function(e) {
+		if (e.which === 13){
+            $(this).blur();
+		}
+
+	});
+
+	changeForm.blur(function(){
+
+        var inputFrom 	=  $('.js-from');
+        var valueOf 	= inputFrom.val();
+
+        if(parseInt(valueOf) === state){
+            return;
+		}
+
+        if(!parseInt(valueOf)){
+
+            inputFrom.val(minRange);
+            state 		= minRange;
+
+        }else{
+
+            if(parseInt(valueOf) > maxRange){
+                inputFrom.val(maxRange);
+                state 	= maxRange;
+            }else if(parseInt(valueOf) < minRange){
+                inputFrom.val(parseInt(minRange));
+                state 	= parseInt(minRange);
+            }else{
+                inputFrom.val(parseInt(valueOf));
+                state 	= parseInt(valueOf);
+            }
+
+        }
+
+        $('.calculatorText').removeClass('active');
+        $('.loader').addClass('active');
+        $('.js-calc-items').addClass('calc-loader');
+
+
+        setTimeout(function () {
+            $('.calculatorText').addClass('active');
+            $('.loader').removeClass('active');
+            $('.js-calc-items').removeClass('calc-loader');
+            slider.update({
+                from: inputFrom.val()
+            });
+        },1500);
+	});
+
+
+	function toggleAll() {
+        $('.calculatorText').toggleClass('active');
+        $('.loader').toggleClass('active');
+        $('.js-calc-items').toggleClass('calc-loader');
+    }
+	//$('.slide_hdr b').inlineEdit('.var_m2t');
+
+    function imitationWork(data) {
+        toggleAll();
+
+        setTimeout(function () {
+            toggleAll();
+            countSlider(data);
+        },1500);
+
+    }
+
+	function calculateSlider(el, per, m2){
+
+		var pr1 = parseInt(el.data('m2'))*m2 + parseInt(el.data('p')) * per;
+		var pr2 = parseInt(el.data('m2d'))*m2 + parseInt(el.data('pd')) * per;
+
+		if (pr1 !== pr2) {
+			el.find('.priced').show();
+			el.find('.pricen').hide();
+		}
+
+		if ( pr2 < window.pricemin ){
+			window.pricemin = pr2;
+		}
+		if ( pr2 > window.pricemax ){
+			window.pricemax = pr2;
+		}
+
+		el.find('.pr1').html(pr1);
+		el.find('.pr2').html(pr2);
+
+		el.find('.popupPrice').html(pr2+' р');
+
+	}
+
+	function countSlider(data){
+
+		// подсчет периметра
+		var per = Math.ceil(10*Math.sqrt(data['from']/6));
+		$('.var_per').html(per);
+		window.pricemin = 1000000;
+		window.pricemax = 0;
+
+		$('.itemsCalc').each(function(index, element){
+
+			calculateSlider( $(element), per, data['from']);
+
+		});
+
+		$('.var_m2').html(data['from']);
+
+		$('.calculatorText .pricemin').html(window.pricemin);
+		$('.calculatorText .pricemax').html(window.pricemax);
+
+	}
+
+	$.fn.inlineEdit = function(el) {
+
+		var replaceWith = $('<input name="temp" type="text" class="inline" />')
+
+		$(this).click(function() {
+
+			var elem = $(el);
+
+			elem.hide();
+			elem.after(replaceWith);
+			replaceWith.focus();
+			replaceWith.mask("?99",{autoclear: false})
+
+			replaceWith.keyup(function(e) {
+				if (e.which == 13)
+					$(this).blur();
+			});
+
+			replaceWith.blur(function() {
+
+				if (($(this).val() != $.cookie('user_sq')) && ($(this).val() != "")) {
+					var slider = $("#slider").data("ionRangeSlider");
+					if ($(this).val() > 50) $(this).val(50);
+					slider.update({
+						from: $(this).val(),
+					});
+				}
+
+				$(this).remove();
+				elem.show();
+			});
+		});
+	};
+
+

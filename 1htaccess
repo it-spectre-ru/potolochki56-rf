@@ -1,0 +1,3 @@
+ErrorDocument 403 http://xn--56-vlcherabf5a2d.xn--p1ai/
+Order deny,allow
+Deny from all
