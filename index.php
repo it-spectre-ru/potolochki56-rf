@@ -26,7 +26,7 @@
 	<script src="/DESIGN/SITE/JS/jquery.mobile.custom.min.js"></script>
 	<script src="/DESIGN/SITE/JS/jquerymobile-swipeupdown.js"></script>
 	<script src="/DESIGN/SITE/JS/json.js-v=0.0.2"></script>
-	<script src="/DESIGN/SITE/JS/common.js-v=0.0.1"></script>
+	<script src="/DESIGN/SITE/JS/common.js"></script>
 	<script src="/DESIGN/SITE/JS/sweetalert.min.js"></script>
 	<!--[if lte IE 8]>
 	<script type="text/javascript" src="/DESIGN/SITE/JS/selectivizr-min.js"></script>
@@ -40,6 +40,52 @@
 	<link rel="stylesheet" href="/DESIGN/SITE/CSS/css/main.css-v=0.0.2.css">
 	<link rel="stylesheet" href="/DESIGN/SITE/CSS/font-awesome.min.css">
 	<link rel="stylesheet" href="/DESIGN/SITE/CSS/swipebox.css" type="text/css">
+
+	<link rel="stylesheet" href="/DESIGN/css/magnific-popup.css" type="text/css"/>
+
+	<script type="text/javascript" src="/DESIGN/js/jquery.magnific-popup.js"></script>
+
+	<script>
+    $(document).ready(function($) {
+      $('.open-popup-link').magnificPopup({
+        type:'inline',
+        midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+      });
+      $("#form1").submit(function(){
+        var form = $(this);
+        var error = false;
+
+        if (!error) {
+          var data = form.serialize();
+          $.ajax({
+            type: 'POST',
+            url: 'post.php',
+
+            data: data,
+            beforeSend: function(data) {
+              form.find('input[type="submit"]').attr('disabled', 'disabled');
+            },
+            success: function(data){
+              if (data['error']) {
+                //alert(data['error']);
+              } else {
+                form.find('.mess_info').text('Спасибо, сообщение отправлено!');
+
+              }
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+              alert(xhr.status);
+              alert(thrownError);
+            },
+            complete: function(data) {
+              form.find('input[type="submit"]').prop('disabled', false);
+            }
+
+          });
+        }
+        return false;
+      });
+	</script>
 </head>
 <body>
 <header class="headerCity">
@@ -371,6 +417,7 @@
 										<input type="hidden" name="robo" value="">
 									</div>
 									<div onclick="sendMailGagerClosed()" class="buttom">Перезвонить<span class="word"> мне</span></div>
+									<a class="button s-btn-encased open-popup-link" href="#feedback-popup">ПОДРОБНЕЕ</a>
 								</form>
 							</div>
 							<p class="">оставьте нам свой номер телефона и мы перезвоним завтра утром</p>
@@ -987,11 +1034,11 @@
 						<div class="menucalculation">
 							<ul>
 								<li><span class="active">Кухня</span></li>
-								<li onclick="setSolActiveM('natyazhnoj-potolok-v-spalne','natyazhnoj-potolok-na-kuhne','/moscow/');"><span>Спальня</span></li>
-								<li onclick="setSolActiveM('natyazhnoj-potolok-v-vannoj','natyazhnoj-potolok-na-kuhne','/moscow/');"><span>Ванная</span></li>
-								<li onclick="setSolActiveM('natyazhnye-potolki-v-gostinoj','natyazhnoj-potolok-na-kuhne','/moscow/');"><span>Гостиная</span></li>
-								<li onclick="setSolActiveM('natyazhnye-potolki-v-detskoj','natyazhnoj-potolok-na-kuhne','/moscow/');"><span>Детская</span></li>
-								<li onclick="setSolActiveM('natyazhnye-potolki-v-prihozhej','natyazhnoj-potolok-na-kuhne','/moscow/');"><span>Прихожая</span></li>
+								<li onclick="setSolActiveM('natyazhnoj-potolok-v-spalne','natyazhnoj-potolok-na-kuhne','/');"><span>Спальня</span></li>
+								<li onclick="setSolActiveM('natyazhnoj-potolok-v-vannoj','natyazhnoj-potolok-na-kuhne','/');"><span>Ванная</span></li>
+								<li onclick="setSolActiveM('natyazhnye-potolki-v-gostinoj','natyazhnoj-potolok-na-kuhne','/');"><span>Гостиная</span></li>
+								<li onclick="setSolActiveM('natyazhnye-potolki-v-detskoj','natyazhnoj-potolok-na-kuhne','/');"><span>Детская</span></li>
+								<li onclick="setSolActiveM('natyazhnye-potolki-v-prihozhej','natyazhnoj-potolok-na-kuhne','/');"><span>Прихожая</span></li>
 							</ul>
 						</div>
 
@@ -2342,5 +2389,39 @@
 	</span>
 	<a itemprop="logo" href=""></a>
 </div>
+
+<div id="feedback-popup2" class="white-popup mfp-with-anim mfp-hide">
+     <div class="popup">
+        <h2>Фризер Snowhite PRO 6240A</h2>
+            <?php if($_SESSION['mess']):?>
+                    <p><?php echo $_SESSION['mess']?></p>
+                    <?php unset( $_SESSION['mess']); endif;?>
+            <form action="" method="post" id="form2">
+                <input type="hidden" name="name_popup" value="feedback-popup2">
+                <img src="images/2.png" alt="" style="float:right;">
+                <div style="float:left;">
+                    <div class="group">
+                        <input type="text" value="" name="name" required>
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>E-mail или телефон</label>
+                        <input type="hidden" value="Напольный фризер Snowhite PRO 6240A" name="phone" >
+                    </div>
+                    <div style="font-size:20px; font-weight: 600">
+                        295.600₽, Aspera, 3 вкуса
+                    </div>
+
+                    <div id="buttons">
+                        <input style="margin-left: -5px;" type="submit" value="Узнать подробности" class="btn blue">
+                        <!--  <a href="#" class="btn blue">Отправить</a> -->
+                    </div>
+
+                </div>
+                <div style="clear:both"></div>
+                <div class="mess_info"></div>
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>
