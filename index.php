@@ -530,7 +530,7 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-12 hidden-sm col-md-1 viewSpace clearfix">
-					<img src="../DESIGN/SITE/CSS/css/img/rub.svg" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/rub.svg" alt="Площадь">
+					<img src="/DESIGN/SITE/CSS/css/img/rub.svg" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/rub.svg" alt="Площадь">
 					<span class="spaceText">Площадь потолка</span>
 					<p class="space">
 						<input maxlength="2" class="js-from" type="text" value="15"/>
@@ -560,8 +560,8 @@
 	<div class="itemsCalc shadow_block" data-m2="1060,12" data-p="210" data-m2d="530,06" data-pd="210"></div>
 	<div class="itemsCalc shadow_block" data-m2="1113,4" data-p="210" data-m2d="556,7" data-pd="210"></div>
 	<div class="itemsCalc shadow_block" data-m2="1166,68" data-p="210" data-m2d="583,34" data-pd="210"></div>
-	<script src="../DESIGN/SITE/JS/ion.rangeSlider.min.js" tppabs="http://vipceiling.ru/DESIGN/SITE/JS/ion.rangeSlider.min.js"></script>
-	<script src="../DESIGN/SITE/JS/calc_items.js-v=0.0.3" tppabs="http://vipceiling.ru/DESIGN/SITE/JS/calc_items.js?v=0.0.3"></script>
+	<script src="/DESIGN/SITE/JS/ion.rangeSlider.min.js" tppabs="http://vipceiling.ru/DESIGN/SITE/JS/ion.rangeSlider.min.js"></script>
+	<script src="/DESIGN/SITE/JS/calc_items.js-v=0.0.3" tppabs="http://vipceiling.ru/DESIGN/SITE/JS/calc_items.js?v=0.0.3"></script>
 
 
 	<section class="recalls grey">
@@ -606,10 +606,9 @@
 								<span class="plusXs">+12</span> </a>
 							<div class="underPhoto clearfix">
 								<a class="videoRecall swipebox-item" rel="video1"
-									 href="javascript:if(confirm('http://youtube.com/watch?v=xcGdlTGJK9o  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://youtube.com/watch?v=xcGdlTGJK9o'"
-									 tppabs="http://youtube.com/watch?v=xcGdlTGJK9o" title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-									<img class="video" src="../../img.youtube.com/vi/xcGdlTGJK9o/mqdefault.jpg" tppabs="http://img.youtube.com/vi/xcGdlTGJK9o/mqdefault.jpg" alt="">
-									<img class="play" src="../DESIGN/SITE/CSS/css/img/video_icon.png" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/video_icon.png" alt="">
+									 href="" title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
+									<img class="video" src="/img.youtube.com/vi/xcGdlTGJK9o/mqdefault.jpg" tppabs="http://img.youtube.com/vi/xcGdlTGJK9o/mqdefault.jpg" alt="">
+									<img class="play" src="/DESIGN/SITE/CSS/css/img/video_icon.png" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/video_icon.png" alt="">
 									<span class="videotime">0:21</span>
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2131" href="" data-litebox-group="of2131"
@@ -620,70 +619,70 @@
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-06_52369.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-06_52369.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-06_52369.jpg" data-litebox-group="of2131"
 									 title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-06_96522.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-06_96522.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-06_96522.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2131"
-									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-07_28901.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-07_28901.jpg'"
+									 href=""
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-07_28901.jpg" data-litebox-group="of2131"
 									 title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-07_29947.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-07_29947.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-07_29947.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2131"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-08_38484.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-08_38484.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-08_38484.jpg" data-litebox-group="of2131"
 									 title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-08_76042.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-08_76042.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-08_76042.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2131"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-09_75092.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-09_75092.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-09_75092.jpg" data-litebox-group="of2131"
 									 title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-09_19317.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-09_19317.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-09_19317.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2131"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-10_19133.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-10_19133.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-10_19133.jpg" data-litebox-group="of2131"
 									 title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-10_83467.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-10_83467.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-10_83467.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2131"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-11_47528.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-11_47528.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-11_47528.jpg" data-litebox-group="of2131"
 									 title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-11_47911.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-11_47911.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-11_47911.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2131"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-12_16161.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-12_16161.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-12_16161.jpg" data-litebox-group="of2131"
 									 title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-12_69769.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-12_69769.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-12_69769.jpg" alt="">
 									<span class="plusMd">+11</span> </a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2131"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-13_1902.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-13_1902.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-13_1902.jpg" data-litebox-group="of2131"
 									 title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-13_53393.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-13_53393.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-13_53393.jpg" alt="">
 									<span class="plusMd">+11</span> </a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2131"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-14_18094.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-14_18094.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-14_18094.jpg" data-litebox-group="of2131"
 									 title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-14_14963.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-14_14963.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-14_14963.jpg" alt="">
 									<span class="plusMd">+11</span> </a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2131"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-15_68039.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-15_68039.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-15_68039.jpg" data-litebox-group="of2131"
 									 title="Потолок в офис 27 м<sup>2</sup> - 12 874 руб., установлен 26.03.18 по адресу ул. Кирова, 5">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-15_30098.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-15_30098.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/28/natyazhnye-potolki-v-ofis-satinovye-besshovnye-reviews-15_30098.jpg" alt="">
 									<span class="plusMd">+11</span> </a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2131" href="" data-litebox-group="of2131"
@@ -723,85 +722,85 @@
 								 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-253_1172.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-253_1172.jpg'"
 								 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-253_1172.jpg" data-litebox-group="of2127"
 								 title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-								<img class="photo" src="../UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-253_22967.jpg"
+								<img class="photo" src="/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-253_22967.jpg"
 										 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-253_22967.jpg">
 								<span class="plusXs">+10</span> </a>
 							<div class="underPhoto clearfix">
 								<a class="videoRecall swipebox-item" rel="video2"
 									 href="javascript:if(confirm('http://youtube.com/watch?v=r3riZdQ4xHc  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://youtube.com/watch?v=r3riZdQ4xHc'"
 									 tppabs="http://youtube.com/watch?v=r3riZdQ4xHc" title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-									<img class="video" src="../../img.youtube.com/vi/r3riZdQ4xHc/mqdefault.jpg" tppabs="http://img.youtube.com/vi/r3riZdQ4xHc/mqdefault.jpg" alt="">
-									<img class="play" src="../DESIGN/SITE/CSS/css/img/video_icon.png" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/video_icon.png" alt="">
+									<img class="video" src="/img.youtube.com/vi/r3riZdQ4xHc/mqdefault.jpg" tppabs="http://img.youtube.com/vi/r3riZdQ4xHc/mqdefault.jpg" alt="">
+									<img class="play" src="/DESIGN/SITE/CSS/css/img/video_icon.png" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/video_icon.png" alt="">
 									<span class="videotime">0:29</span>
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2127"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-254_31017.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-254_31017.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-254_31017.jpg" data-litebox-group="of2127"
 									 title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-254_72457.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-254_72457.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-254_72457.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2127"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-255_56641.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-255_56641.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-255_56641.jpg" data-litebox-group="of2127"
 									 title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-255_66426.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-255_66426.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-255_66426.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2127"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-256_73961.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-256_73961.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-256_73961.jpg" data-litebox-group="of2127"
 									 title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-256_9726.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-256_9726.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-256_9726.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2127"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-257_16236.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-257_16236.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-257_16236.jpg" data-litebox-group="of2127"
 									 title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-257_37465.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-257_37465.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-257_37465.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2127"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-258_70730.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-258_70730.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-258_70730.jpg" data-litebox-group="of2127"
 									 title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-258_32015.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-258_32015.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-258_32015.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2127"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-259_5878.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-259_5878.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-259_5878.jpg" data-litebox-group="of2127"
 									 title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-259_26872.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-259_26872.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-259_26872.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2127"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-260_43017.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-260_43017.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-260_43017.jpg" data-litebox-group="of2127"
 									 title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-260_61325.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-260_61325.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-260_61325.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2127"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-261_79869.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-261_79869.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-261_79869.jpg" data-litebox-group="of2127"
 									 title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-261_38671.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-261_38671.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-261_38671.jpg" alt="">
 									<span class="plusMd">+9</span> </a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2127"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-262_11517.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-262_11517.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-262_11517.jpg" data-litebox-group="of2127"
 									 title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-262_13626.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-262_13626.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-262_13626.jpg" alt="">
 									<span class="plusMd">+9</span> </a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2127"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-263_71512.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-263_71512.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-263_71512.jpg" data-litebox-group="of2127"
 									 title="Потолок в спальню 15 м<sup>2</sup> - 12 593 руб., установлен 23.03.18 по адресу ул. Билимбаевская, 25к3">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-263_3149.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-263_3149.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnoj-potolok-v-spalne-glyancevyj-besshovnyj-reviews-263_3149.jpg" alt="">
 									<span class="plusMd">+9</span> </a>
 							</div>
@@ -837,57 +836,57 @@
 								 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-102_33610.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-102_33610.jpg'"
 								 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-102_33610.jpg" data-litebox-group="of2129"
 								 title="Потолок в зале 27 м<sup>2</sup> - 12 436 руб., установлен 19.03.18 по адресу ул. Каслинская, 21">
-								<img class="photo" src="../UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-102_39012.jpg"
+								<img class="photo" src="/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-102_39012.jpg"
 										 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-102_39012.jpg">
 								<span class="plusXs">+6</span> </a>
 							<div class="underPhoto clearfix">
 								<a class="videoRecall swipebox-item" rel="video3"
 									 href="javascript:if(confirm('http://youtube.com/watch?v=DadhjNWEbHo  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://youtube.com/watch?v=DadhjNWEbHo'"
 									 tppabs="http://youtube.com/watch?v=DadhjNWEbHo" title="Потолок в зале 27 м<sup>2</sup> - 12 436 руб., установлен 19.03.18 по адресу ул. Каслинская, 21">
-									<img class="video" src="../../img.youtube.com/vi/DadhjNWEbHo/mqdefault.jpg" tppabs="http://img.youtube.com/vi/DadhjNWEbHo/mqdefault.jpg" alt="">
-									<img class="play" src="../DESIGN/SITE/CSS/css/img/video_icon.png" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/video_icon.png" alt="">
+									<img class="video" src="/img.youtube.com/vi/DadhjNWEbHo/mqdefault.jpg" tppabs="http://img.youtube.com/vi/DadhjNWEbHo/mqdefault.jpg" alt="">
+									<img class="play" src="/DESIGN/SITE/CSS/css/img/video_icon.png" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/video_icon.png" alt="">
 									<span class="videotime">0:37</span>
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2129"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-103_77931.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-103_77931.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-103_77931.jpg" data-litebox-group="of2129"
 									 title="Потолок в зале 27 м<sup>2</sup> - 12 436 руб., установлен 19.03.18 по адресу ул. Каслинская, 21">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-103_11983.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-103_11983.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-103_11983.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2129"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-104_9825.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-104_9825.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-104_9825.jpg" data-litebox-group="of2129"
 									 title="Потолок в зале 27 м<sup>2</sup> - 12 436 руб., установлен 19.03.18 по адресу ул. Каслинская, 21">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-104_94496.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-104_94496.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-104_94496.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2129"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-105_73244.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-105_73244.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-105_73244.jpg" data-litebox-group="of2129"
 									 title="Потолок в зале 27 м<sup>2</sup> - 12 436 руб., установлен 19.03.18 по адресу ул. Каслинская, 21">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-105_18082.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-105_18082.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-105_18082.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2129"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-106_41156.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-106_41156.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-106_41156.jpg" data-litebox-group="of2129"
 									 title="Потолок в зале 27 м<sup>2</sup> - 12 436 руб., установлен 19.03.18 по адресу ул. Каслинская, 21">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-106_10851.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-106_10851.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-106_10851.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2129"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-107_29764.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-107_29764.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-107_29764.jpg" data-litebox-group="of2129"
 									 title="Потолок в зале 27 м<sup>2</sup> - 12 436 руб., установлен 19.03.18 по адресу ул. Каслинская, 21">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-107_47403.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-107_47403.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-107_47403.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2129"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-108_56111.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-108_56111.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-108_56111.jpg" data-litebox-group="of2129"
 									 title="Потолок в зале 27 м<sup>2</sup> - 12 436 руб., установлен 19.03.18 по адресу ул. Каслинская, 21">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-108_80076.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-108_80076.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/27/natyazhnye-potolki-dlya-zala-matovye-besshovnye-reviews-108_80076.jpg" alt="">
 								</a>
 							</div>
@@ -923,71 +922,71 @@
 								 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-133_33463.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-133_33463.jpg'"
 								 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-133_33463.jpg" data-litebox-group="of2126"
 								 title="Потолок в квартире 38 м<sup>2</sup> - 16 984 руб., установлен 18.03.18 по адресу ул. Перелёта, 34">
-								<img class="photo" src="../UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-133_89408.jpg"
+								<img class="photo" src="/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-133_89408.jpg"
 										 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-133_89408.jpg">
 								<span class="plusXs">+8</span> </a>
 							<div class="underPhoto clearfix">
 								<a class="videoRecall swipebox-item" rel="video4"
 									 href="javascript:if(confirm('http://youtube.com/watch?v=Z6_LYK48t5E  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://youtube.com/watch?v=Z6_LYK48t5E'"
 									 tppabs="http://youtube.com/watch?v=Z6_LYK48t5E" title="Потолок в квартире 38 м<sup>2</sup> - 16 984 руб., установлен 18.03.18 по адресу ул. Перелёта, 34">
-									<img class="video" src="../../img.youtube.com/vi/Z6_LYK48t5E/mqdefault.jpg" tppabs="http://img.youtube.com/vi/Z6_LYK48t5E/mqdefault.jpg" alt="">
-									<img class="play" src="../DESIGN/SITE/CSS/css/img/video_icon.png" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/video_icon.png" alt="">
+									<img class="video" src="/img.youtube.com/vi/Z6_LYK48t5E/mqdefault.jpg" tppabs="http://img.youtube.com/vi/Z6_LYK48t5E/mqdefault.jpg" alt="">
+									<img class="play" src="/DESIGN/SITE/CSS/css/img/video_icon.png" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/video_icon.png" alt="">
 									<span class="videotime">0:25</span>
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2126"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-134_36066.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-134_36066.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-134_36066.jpg" data-litebox-group="of2126"
 									 title="Потолок в квартире 38 м<sup>2</sup> - 16 984 руб., установлен 18.03.18 по адресу ул. Перелёта, 34">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-134_85591.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-134_85591.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-134_85591.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2126"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-135_16238.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-135_16238.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-135_16238.jpg" data-litebox-group="of2126"
 									 title="Потолок в квартире 38 м<sup>2</sup> - 16 984 руб., установлен 18.03.18 по адресу ул. Перелёта, 34">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-135_94117.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-135_94117.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-135_94117.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2126"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-136_88877.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-136_88877.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-136_88877.jpg" data-litebox-group="of2126"
 									 title="Потолок в квартире 38 м<sup>2</sup> - 16 984 руб., установлен 18.03.18 по адресу ул. Перелёта, 34">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-136_79969.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-136_79969.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-136_79969.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2126"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-137_42114.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-137_42114.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-137_42114.jpg" data-litebox-group="of2126"
 									 title="Потолок в квартире 38 м<sup>2</sup> - 16 984 руб., установлен 18.03.18 по адресу ул. Перелёта, 34">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-137_42968.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-137_42968.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-137_42968.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2126"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-138_5562.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-138_5562.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-138_5562.jpg" data-litebox-group="of2126"
 									 title="Потолок в квартире 38 м<sup>2</sup> - 16 984 руб., установлен 18.03.18 по адресу ул. Перелёта, 34">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-138_89761.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-138_89761.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-138_89761.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2126"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-139_92450.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-139_92450.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-139_92450.jpg" data-litebox-group="of2126"
 									 title="Потолок в квартире 38 м<sup>2</sup> - 16 984 руб., установлен 18.03.18 по адресу ул. Перелёта, 34">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-139_39092.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-139_39092.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-139_39092.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2126"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-140_3490.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-140_3490.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-140_3490.jpg" data-litebox-group="of2126"
 									 title="Потолок в квартире 38 м<sup>2</sup> - 16 984 руб., установлен 18.03.18 по адресу ул. Перелёта, 34">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-140_28181.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-140_28181.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-140_28181.jpg" alt="">
 								</a>
 								<a class="otherPhotoRecall swipebox-item" rel="rev2126"
 									 href="javascript:if(confirm('http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-141_6267.jpg  \n\nThis file was not retrieved by Teleport VLX, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-141_6267.jpg'"
 									 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-141_6267.jpg" data-litebox-group="of2126"
 									 title="Потолок в квартире 38 м<sup>2</sup> - 16 984 руб., установлен 18.03.18 по адресу ул. Перелёта, 34">
-									<img class="otherPhoto" src="../UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-141_50247.jpg"
+									<img class="otherPhoto" src="/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-141_50247.jpg"
 											 tppabs="http://vipceiling.ru/UPLOAD/2018/03/20/natyazhnye-potolki-v-kvartire-matovye-besshovnye-reviews-141_50247.jpg" alt="">
 									<span class="plusMd">+7</span> </a>
 							</div>
@@ -1052,7 +1051,7 @@
 					<figure class="calculat ">
 						<a class="for photoCalculat" href="solutions/natyazhnoj-potolok-na-kuhne/index.htm#sol22"
 							 tppabs="http://vipceiling.ru/moscow/solutions/natyazhnoj-potolok-na-kuhne/#sol22">
-							<img class="photo" src="../UPLOAD/2015/07/22/kuhnya_satin_0102_615_390_240_9155.jpg"
+							<img class="photo" src="/UPLOAD/2015/07/22/kuhnya_satin_0102_615_390_240_9155.jpg"
 									 tppabs="http://vipceiling.ru/UPLOAD/2015/07/22/kuhnya_satin_0102_615_390_240_9155.jpg" alt="Сатиновый потолок<br>на кухню 9,2 м2">
 						</a>
 
@@ -1077,7 +1076,7 @@
 					<figure class="calculat sale">
 						<a class="for photoCalculat" href="solutions/natyazhnoj-potolok-na-kuhne/index.htm#sol21"
 							 tppabs="http://vipceiling.ru/moscow/solutions/natyazhnoj-potolok-na-kuhne/#sol21">
-							<img class="photo" src="../UPLOAD/2016/06/29/kuhnya2_390_240.jpg" tppabs="http://vipceiling.ru/UPLOAD/2016/06/29/kuhnya2_390_240.jpg"
+							<img class="photo" src="/UPLOAD/2016/06/29/kuhnya2_390_240.jpg" tppabs="http://vipceiling.ru/UPLOAD/2016/06/29/kuhnya2_390_240.jpg"
 									 alt="Матовый потолок<br>на кухню 8,9 м2">
 							<span class="discount">-50% на Mon Lange (3,5 м)</span> </a>
 
@@ -1103,7 +1102,7 @@
 					<figure class="calculat sale">
 						<a class="for photoCalculat" href="solutions/natyazhnoj-potolok-na-kuhne/index.htm#sol20"
 							 tppabs="http://vipceiling.ru/moscow/solutions/natyazhnoj-potolok-na-kuhne/#sol20">
-							<img class="photo" src="../UPLOAD/2015/06/25/kitchen_lac_390_240.jpg" tppabs="http://vipceiling.ru/UPLOAD/2015/06/25/kitchen_lac_390_240.jpg"
+							<img class="photo" src="/UPLOAD/2015/06/25/kitchen_lac_390_240.jpg" tppabs="http://vipceiling.ru/UPLOAD/2015/06/25/kitchen_lac_390_240.jpg"
 									 alt="Глянцевый потолок<br>на кухню 8,5 м2">
 							<span class="discount">-50% на L-ete</span> </a>
 
@@ -1138,9 +1137,9 @@
 	<section class="advantages blue hidden-mobile">
 		<div class="imageBlock">
 			<div class="image">
-				<img class="img-lg" src="../DESIGN/SITE/CSS/css/img/plusCompany_lg.jpg" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/plusCompany_lg.jpg" alt="">
-				<img class="img-md" src="../DESIGN/SITE/CSS/css/img/plusCompany_md.jpg" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/plusCompany_md.jpg" alt="">
-				<img class="img-sm" src="../DESIGN/SITE/CSS/css/img/plusCompany_sm.jpg" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/plusCompany_sm.jpg" alt="">
+				<img class="img-lg" src="/DESIGN/SITE/CSS/css/img/plusCompany_lg.jpg" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/plusCompany_lg.jpg" alt="">
+				<img class="img-md" src="/DESIGN/SITE/CSS/css/img/plusCompany_md.jpg" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/plusCompany_md.jpg" alt="">
+				<img class="img-sm" src="/DESIGN/SITE/CSS/css/img/plusCompany_sm.jpg" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/css/img/plusCompany_sm.jpg" alt="">
 			</div>
 		</div>
 	</section>
@@ -1209,8 +1208,8 @@
 
 
 	<section class="photos grey">
-		<script src="../DESIGN/SITE/JS/sweetalert.min.js" tppabs="http://vipceiling.ru/DESIGN/SITE/JS/sweetalert.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="../DESIGN/SITE/CSS/sweetalert.css" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/sweetalert.css">
+		<script src="/DESIGN/SITE/JS/sweetalert.min.js" tppabs="http://vipceiling.ru/DESIGN/SITE/JS/sweetalert.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/DESIGN/SITE/CSS/sweetalert.css" tppabs="http://vipceiling.ru/DESIGN/SITE/CSS/sweetalert.css">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -1524,7 +1523,7 @@
 					<div class="lightsPreview clearfix">
 						<div class="forImg">
 							<a href="lights/index.htm" tppabs="http://vipceiling.ru/moscow/lights/">
-								<img src="../UPLOAD/2015/08/20/ft90_25674.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/ft90_25674.gif" alt="Светильник FT90">
+								<img src="/UPLOAD/2015/08/20/ft90_25674.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/ft90_25674.gif" alt="Светильник FT90">
 							</a>
 						</div>
 						<h4>
@@ -1546,7 +1545,7 @@
 					<div class="lightsPreview clearfix">
 						<div class="forImg">
 							<a href="lights/index.htm" tppabs="http://vipceiling.ru/moscow/lights/">
-								<img src="../UPLOAD/2015/08/20/g14_78299.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/g14_78299.gif" alt="Светильник G14">
+								<img src="/UPLOAD/2015/08/20/g14_78299.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/g14_78299.gif" alt="Светильник G14">
 							</a>
 						</div>
 						<h4>
@@ -1576,7 +1575,7 @@
 					<div class="lightsPreview clearfix">
 						<div class="forImg">
 							<a href="lights/index.htm" tppabs="http://vipceiling.ru/moscow/lights/">
-								<img src="../UPLOAD/2015/08/20/h4_79610.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/h4_79610.gif" alt="Светильник H4">
+								<img src="/UPLOAD/2015/08/20/h4_79610.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/h4_79610.gif" alt="Светильник H4">
 							</a>
 						</div>
 						<h4>
@@ -1599,7 +1598,7 @@
 					<div class="lightsPreview clearfix">
 						<div class="forImg">
 							<a href="lights/index.htm" tppabs="http://vipceiling.ru/moscow/lights/">
-								<img src="../UPLOAD/2015/08/20/h5_86125.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/h5_86125.gif" alt="Светильник H5">
+								<img src="/UPLOAD/2015/08/20/h5_86125.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/h5_86125.gif" alt="Светильник H5">
 							</a>
 						</div>
 						<h4>
@@ -1622,7 +1621,7 @@
 					<div class="lightsPreview clearfix">
 						<div class="forImg">
 							<a href="lights/index.htm" tppabs="http://vipceiling.ru/moscow/lights/">
-								<img src="../UPLOAD/2015/08/20/h7_53287.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/h7_53287.gif" alt="Светильник H7-H8">
+								<img src="/UPLOAD/2015/08/20/h7_53287.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/h7_53287.gif" alt="Светильник H7-H8">
 							</a>
 						</div>
 						<h4>
@@ -1645,7 +1644,7 @@
 					<div class="lightsPreview clearfix">
 						<div class="forImg">
 							<a href="lights/index.htm" tppabs="http://vipceiling.ru/moscow/lights/">
-								<img src="../UPLOAD/2015/08/20/light_74705.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/light_74705.gif" alt="Светодиодные лампы">
+								<img src="/UPLOAD/2015/08/20/light_74705.gif" tppabs="http://vipceiling.ru/UPLOAD/2015/08/20/light_74705.gif" alt="Светодиодные лампы">
 							</a>
 						</div>
 						<h4>
@@ -1681,7 +1680,7 @@
 				<div class="hidden-xs col-sm-6 col-sm-offset-0 col-md-4">
 					<figure class="texture">
 						<a class="for photoCalculat" href="textures/matovye-natyazhnye-potolki/index.htm#sol9" tppabs="http://vipceiling.ru/moscow/textures/matovye-natyazhnye-potolki/#sol9">
-							<img class="photo" src="../UPLOAD/2015/07/01/lounge_mat_390_240.jpg" tppabs="http://vipceiling.ru/UPLOAD/2015/07/01/lounge_mat_390_240.jpg"
+							<img class="photo" src="/UPLOAD/2015/07/01/lounge_mat_390_240.jpg" tppabs="http://vipceiling.ru/UPLOAD/2015/07/01/lounge_mat_390_240.jpg"
 									 alt="Матовый потолок<br>в гостиную 22 м2">
 							<span class="discount">
                                 -50% на L-ete                            </span>
@@ -1704,7 +1703,7 @@
 					<figure class="texture">
 						<a class="for photoCalculat" href="textures/satinovye-natyazhnye-potolki/index.htm#sol10"
 							 tppabs="http://vipceiling.ru/moscow/textures/satinovye-natyazhnye-potolki/#sol10">
-							<img class="photo" src="../UPLOAD/2015/07/01/lounge_sat_390_240.jpg" tppabs="http://vipceiling.ru/UPLOAD/2015/07/01/lounge_sat_390_240.jpg"
+							<img class="photo" src="/UPLOAD/2015/07/01/lounge_sat_390_240.jpg" tppabs="http://vipceiling.ru/UPLOAD/2015/07/01/lounge_sat_390_240.jpg"
 									 alt="Сатиновый потолок<br>в гостиную 20,5 м2">
 							<span class="discount">
                                 -50% на L-ete                            </span>
@@ -1728,7 +1727,7 @@
 					<figure class="texture">
 						<a class="for photoCalculat" href="textures/glyancevye-natyazhnye-potolki/index.htm#sol11"
 							 tppabs="http://vipceiling.ru/moscow/textures/glyancevye-natyazhnye-potolki/#sol11">
-							<img class="photo" src="../UPLOAD/2015/06/25/playroom_lac_390_240_22381.jpg" tppabs="http://vipceiling.ru/UPLOAD/2015/06/25/playroom_lac_390_240_22381.jpg"
+							<img class="photo" src="/UPLOAD/2015/06/25/playroom_lac_390_240_22381.jpg" tppabs="http://vipceiling.ru/UPLOAD/2015/06/25/playroom_lac_390_240_22381.jpg"
 									 alt="Глянцевый потолок<br>в детскую 13,8 м2">
 							<span class="discount">
                                 -50% на L-ete                            </span>
@@ -1770,42 +1769,42 @@
 			<div class="row">
 				<div class="col-sm-4 col-md-4">
 					<a class="technology" href="technology/dvuhurovnevye-natyazhnye-potolki/index.htm" tppabs="http://vipceiling.ru/moscow/technology/dvuhurovnevye-natyazhnye-potolki/">
-						<img class="photo" src="../UPLOAD/2015/07/01/natyazhnoj-potolok-na-kuhne-glyancevyj-dvuhurovnevyj-07_390_240.jpg"
+						<img class="photo" src="/UPLOAD/2015/07/01/natyazhnoj-potolok-na-kuhne-glyancevyj-dvuhurovnevyj-07_390_240.jpg"
 								 tppabs="http://vipceiling.ru/UPLOAD/2015/07/01/natyazhnoj-potolok-na-kuhne-glyancevyj-dvuhurovnevyj-07_390_240.jpg" alt="">
 						<h3>Двухуровневые</h3>
 					</a>
 				</div>
 				<div class="col-sm-4 col-md-4">
 					<a class="technology" href="technology/natyazhnye-potolki-s-podsvetkoj/index.htm" tppabs="http://vipceiling.ru/moscow/technology/natyazhnye-potolki-s-podsvetkoj/">
-						<img class="photo" src="../UPLOAD/2015/07/01/natyazhnye-potolki-v-gostinoj-glyancevye-s-podsvetkoj-02_390_240.jpg"
+						<img class="photo" src="/UPLOAD/2015/07/01/natyazhnye-potolki-v-gostinoj-glyancevye-s-podsvetkoj-02_390_240.jpg"
 								 tppabs="http://vipceiling.ru/UPLOAD/2015/07/01/natyazhnye-potolki-v-gostinoj-glyancevye-s-podsvetkoj-02_390_240.jpg" alt="">
 						<h3>С подсветкой</h3>
 					</a>
 				</div>
 				<div class="col-sm-4 col-md-4">
 					<a class="technology" href="technology/besshovnye-natyazhnye-potolki/index.htm" tppabs="http://vipceiling.ru/moscow/technology/besshovnye-natyazhnye-potolki/">
-						<img class="photo" src="../UPLOAD/2015/07/01/natyazhnye-potolki-v-gostinoj-satinovye-dvuhurovnevye-01_390_240.jpg"
+						<img class="photo" src="/UPLOAD/2015/07/01/natyazhnye-potolki-v-gostinoj-satinovye-dvuhurovnevye-01_390_240.jpg"
 								 tppabs="http://vipceiling.ru/UPLOAD/2015/07/01/natyazhnye-potolki-v-gostinoj-satinovye-dvuhurovnevye-01_390_240.jpg" alt="">
 						<h3>Бесшовные</h3>
 					</a>
 				</div>
 				<div class="col-sm-4 col-md-4">
 					<a class="technology" href="technology/natyazhnye-potolki-s-fotopechatyu/index.htm" tppabs="http://vipceiling.ru/moscow/technology/natyazhnye-potolki-s-fotopechatyu/">
-						<img class="photo" src="../UPLOAD/2015/07/01/natyazhnye-potolki-v-gostinoj-glyancevye-s-fotopechatyu-04_390_240.jpg"
+						<img class="photo" src="/UPLOAD/2015/07/01/natyazhnye-potolki-v-gostinoj-glyancevye-s-fotopechatyu-04_390_240.jpg"
 								 tppabs="http://vipceiling.ru/UPLOAD/2015/07/01/natyazhnye-potolki-v-gostinoj-glyancevye-s-fotopechatyu-04_390_240.jpg" alt="">
 						<h3>С фотопечатью</h3>
 					</a>
 				</div>
 				<div class="col-sm-4 col-md-4">
 					<a class="technology" href="technology/krivolinejnye-natyazhnye-potolki/index.htm" tppabs="http://vipceiling.ru/moscow/technology/krivolinejnye-natyazhnye-potolki/">
-						<img class="photo" src="../UPLOAD/2015/07/01/natyazhnye-potolki-v-detskoj-glyancevye-krivolinejnye-01_390_240_21706.jpg"
+						<img class="photo" src="/UPLOAD/2015/07/01/natyazhnye-potolki-v-detskoj-glyancevye-krivolinejnye-01_390_240_21706.jpg"
 								 tppabs="http://vipceiling.ru/UPLOAD/2015/07/01/natyazhnye-potolki-v-detskoj-glyancevye-krivolinejnye-01_390_240_21706.jpg" alt="">
 						<h3>Трехмерные</h3>
 					</a>
 				</div>
 				<div class="col-sm-4 col-md-4">
 					<a class="technology" href="technology/natyazhnoj-potolok-zvezdnoe-nebo/index.htm" tppabs="http://vipceiling.ru/moscow/technology/natyazhnoj-potolok-zvezdnoe-nebo/">
-						<img class="photo" src="../UPLOAD/2015/05/24/teh5_390_240.jpg" tppabs="http://vipceiling.ru/UPLOAD/2015/05/24/teh5_390_240.jpg" alt="">
+						<img class="photo" src="/UPLOAD/2015/05/24/teh5_390_240.jpg" tppabs="http://vipceiling.ru/UPLOAD/2015/05/24/teh5_390_240.jpg" alt="">
 						<h3>Звёздное небо</h3>
 					</a>
 				</div>
@@ -1933,7 +1932,7 @@
         //here
         gCollection.options.set({
           iconLayout: 'default#image',
-          iconImageHref: '../DESIGN/SITE/images/how_onmap.png'/*tpa=http://vipceiling.ru/DESIGN/SITE/images/how_onmap.png*/,
+          iconImageHref: '/DESIGN/SITE/images/how_onmap.png'/*tpa=http://vipceiling.ru/DESIGN/SITE/images/how_onmap.png*/,
           iconImageSize: [25, 36],
           iconImageOffset: [-13, -32],
         });
@@ -2363,8 +2362,8 @@
 	</div>
 </footer>
 
-<script type="text/javascript" src="../DESIGN/SITE/JS/main.js" tppabs="http://vipceiling.ru/DESIGN/SITE/JS/main.js"></script>
-<script src="../DESIGN/SITE/JS/jquery.cookie.js" tppabs="http://vipceiling.ru/DESIGN/SITE/JS/jquery.cookie.js"></script>
+<script type="text/javascript" src="/DESIGN/SITE/JS/main.js" tppabs="http://vipceiling.ru/DESIGN/SITE/JS/main.js"></script>
+<script src="/DESIGN/SITE/JS/jquery.cookie.js" tppabs="http://vipceiling.ru/DESIGN/SITE/JS/jquery.cookie.js"></script>
 <script>
   $('.footerListTitle').click(function() {
     $(this).parent().toggleClass('active');
